@@ -225,8 +225,8 @@ async def amireallyalive(alive):
         f" **XXXLVI YOUR SLAVE** \n"
         f"• XLVI \n"     f": `{DEFAULTUSER}` \n"
         f"• Username \n" f": `@{user.username}` \n"
-        f"• Telethon \n" f": `Versi {version.__version__}` \n"
-        f"• Python\n"    f": `Versi {python_version()}` \n"
+        f"• Telethon \n" f": `{version.__version__}` \n"
+        f"• Python\n"    f": `{python_version()}` \n"
         f"• Versi Bot \n" f": `{BOT_VER}` \n"
         f"• Uptime \n"   f": `{uptime}` \n"
         f"• Modul \n"    f": `{len(modules)}` \n")
@@ -289,11 +289,9 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f" XXXLVI BOT ON\n\n"
-        f"• XLVI         :\n"
-        f" `{DEFAULTUSER}` \n"
-        f"• Username     : \n"
-        f" `@{user.username}` \n\n"
+        f" XXXLVI Running Bitcciissss\n\n"
+        f"• XLVI         :\n" f" `{DEFAULTUSER}` \n"
+        f"• Username     : \n" f" `@{user.username}` \n\n"
         f"• Versi Bot    :`{BOT_VER}` "
         f"• Module       :`{len(modules)}` \n\n"
         f"• Repo Userbot : [XXXLVI](https://github.com/santuywae/XXXLVI)\n❃ **Grup Userbot: **[Tekan](t.me/LordUserbot_Group)\n❃ **Pemilik:** [Iqbal](t.me/fckyouasshole)\n")
