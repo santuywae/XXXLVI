@@ -290,8 +290,10 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     output = (
         f" XXXLVI Running Bitcciissss\n\n"
-        f"• XLVI         :\n" f" `{DEFAULTUSER}` \n"
-        f"• Username     : \n" f" `@{user.username}` \n\n"
+        f"• XLVI         :\n"
+        f" `{DEFAULTUSER}` \n"
+        f"• Username     : \n"
+        f" `@{user.username}` \n\n"
         f"• Versi Bot    :`{BOT_VER}` "
         f"• Module       :`{len(modules)}` \n\n"
         f"• Repo Userbot : [XXXLVI](https://github.com/santuywae/XXXLVI)\n❃ **Grup Userbot: **[Tekan](t.me/LordUserbot_Group)\n❃ **Pemilik:** [Iqbal](t.me/fckyouasshole)\n")
